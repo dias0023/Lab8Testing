@@ -6,28 +6,28 @@
 
     <item
         android:id="@+id/action_one"
-        android:icon="@android:drawable/btn_radio"
+        android:icon="@drawable/icons8_surprised_50"
         android:orderInCategory="101"
-        android:title="Option 1"
+        android:title="@string/action_one"
         app:showAsAction="always"/>
 
     <item
         android:id="@+id/action_two"
-        android:icon="@android:drawable/btn_radio"
+        android:icon="@drawable/icons8_lol_50"
         android:orderInCategory="101"
-        android:title="Option 2"
+        android:title="@string/action_two"
         app:showAsAction="always"/>
 
     <item
         android:id="@+id/action_three"
-        android:icon="@android:drawable/btn_radio"
+        android:icon="@drawable/icons8_in_love_50"
         android:orderInCategory="101"
-        android:title="Option 3"
+        android:title="@string/action_three"
         app:showAsAction="always"/>
 
     <item
         android:id="@+id/about"
         android:orderInCategory="100"
-        android:title="About"
+        android:title="@string/about"
         app:showAsAction="never"/>
 </menu>
